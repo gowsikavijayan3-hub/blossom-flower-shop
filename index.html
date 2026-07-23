@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blossom</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <!--navbar-->
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+
+
+      <button class="navbar-toggler me-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <a class="navbar-brand fw-bold" href="#">Blossom</a>
+
+
+      <div class="ms-auto ms-auto d-flex align-items-center  gap-3" id="cart">
+
+        <a href="#" class="text-dark fs-4 ">
+          <i class="bi bi-search"></i>
+        </a>
+        <a href="#" class="text-dark fs-4">
+          <i class="bi bi-cart3"></i>
+        </a>
+      </div>
+
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-lg-4 ms-lg-auto me-lg-auto ">
+          <li class="nav-item">
+            <a id="nav-link" class="nav-link active fw-bold" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-link" class="nav-link active fw-bold" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-link" class="nav-link active fw-bold" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-link" class="nav-link active fw-bold" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--head-section-->
+
+  <!--hero-text-->
+  <div id="hero-section">
+    <div style="margin-left:15%;padding-top:6%;">
+      <p class=" display-4 ">Fresh Flowers</p>
+      <p class="fw-bold display-3">Make Every Day <br>Beautiful</p>
+      <p class="lead display-5">Handpicked blooms for your <br>special moments.</p>
+
+      <button class="btn  text-light rounded btn-lg ps-5 pe-5" id="hero-button">Shop Now <i
+          class="bi bi-basket3-fill"></i></button>
+    </div>
+  </div>
+
+
+  <!--most-saler-->
+  <p class="text-center mt-5 display-5"><i class="bi bi-stars star"></i>Our Featured Flowers<i class="bi bi-stars star"></i></p>
+  <!--image for -->
+
+  <div class="container mt-5">
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-lg">
+          <img src="pict.1.jpg" class="p-2 card-img-top img-fluid" alt="" style="height: 250px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Luxury Pink Rose Bouquet</h5>
+            <p class="fw-bold" id="price">$29.99</p>
+            <button class="btn w-100" id="add-cart" >
+              Add to Cart <i class="bi bi-cart3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-lg">
+          <img src="pict-2.jpg" class="p-2 card-img-top img-fluid" alt="" style="height: 250px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Spring Blossom Mix</h5>
+            <p class="fw-bold" id="price">$29.99</p>
+            <button class="btn w-100" id="add-cart">
+              Add to Cart <i class="bi bi-cart3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-lg">
+          <img src="pict.3.jpg" class="p-2 card-img-top img-fluid" alt="" style="height: 250px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sweet Bloom Bouquet</h5>
+            <p class="fw-bold" id="price">$29.99</p>
+            <button class="btn w-100" id="add-cart">
+              Add to Cart <i class="bi bi-cart3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-lg">
+          <img src="pict.4.jpg" class="p-2 card-img-top img-fluid" alt="" style="height: 250px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Peony Elegance Bouquet</h5>
+            <p class="fw-bold" id="price">$29.99</p>
+            <button class="btn w-100" id="add-cart" >
+              Add to Cart <i class="bi bi-cart3"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+  <!--order-details-->
+  <div class=" mt-5 ms-5 me-5 rounded order-details" >
+
+
+    <div class="row justify-content-space-arround">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 text-center">
+        <i class="bi bi-flower1 icone-order"></i>
+        <p class="fw-bold">Fresh & Quality</p>
+        <p>We ensure the best quality flowers.</p>
+      </div>
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 text-center">
+        <i class="bi bi-truck icone-order"></i>
+        <p class="fw-bold ">Same-Day delivery</p>
+        <p>Get Your Orders on time,every time.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 text-center">
+     <i class="bi bi-lock-fill icone-order"></i>
+        <p class="fw-bold">100% Secure Payments</p>
+        <p>Safe and secure payment methods.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 pt-3 text-center">
+        <i class="bi bi-headset icone-order"></i>
+        <p class="fw-bold">24/7 Support</p>
+        <p>We help you always.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--ratings-->
+  <div class="container mt-5">
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card h-100 shadow-lg" id="rating-card">
+
+          <div class="card-body sm-4">
+            <p class="display-5"><i class="bi bi-quote quote"></i></p>
+            <p>The flowers were fresh and beautiful. Delivery was on time. Highly recommend!</p>
+            <p class="fw-bold"> - Anitha R.</p>
+            <p><i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i
+                class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i></p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card h-100 shadow-lg" id="rating-card">
+
+          <div class="card-body ms-4">
+            <p class="display-5 "><i class="bi bi-quote quote"></i></p>
+            <p>Amazing service and lovely flowers. Will order again!</p>
+            <p class="fw-bold"> - Priya K.</p>
+            <p><i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i
+                class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i></p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card h-100 shadow-lg" id="rating-card" >
+
+          <div class="card-body ms-4">
+            <p class="display-5"><i class="bi bi-quote quote"></i></p>
+            <p>Very professional and the bouquet was stunning.</p>
+            <p class="fw-bold"> - Karthik S.</p>
+            <p><i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i> <i
+                class="bi bi-star-fill star"></i> <i class="bi bi-star-fill star"></i></p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid mt-5 footer w-100v">
+    <div class="row">
+
+      <div class=" col-12 col-sm-6 col-md-3 col-lg-3 text-light mt-5 mb-3">
+      <p class="fw-bold h4">Blossom Flower Shop</p>
+      <p class="h5 lead">Making every moment special with the beauty of fowers.</p>
+      <div class="d-flex">
+        <i class="bi bi-facebook brand"></i>
+        <i class="bi bi-twitter brand ps-3"></i>
+        <i class="bi bi-instagram brand ps-3"></i>
+        <i class="bi bi-pinterest brand ps-3"></i> 
+
+      </div>
+      </div>
+
+
+
+    <div class=" col-12 col-sm-6 col-md-3 col-lg-3  text-light mt-5 mb-3 ">
+      <p class="fw-bold h4">Quick Links</p>
+     <p class="h5">Home</p>
+      <p class="h5">Shop</p>
+      <p class="h5">About</p>
+      <p class="h5">Contact</p>
+      </div>
+
+
+
+<div class=" col-12 col-sm-6 col-md-3 col-lg-3  text-light mt-5 mb-3">
+    <p class="fw-bold h4">Customer Service</p>
+    <p class="h5">My Account</p>
+    <p class="h5">Track Order</p>
+    <p class="h5">FAQ</p>
+    <p class="h5">Privacy Policy</p>
+      </div>
+
+      
+<div class=" col-12 col-sm-6 col-md-3 col-lg-3  text-light mt-5 mb-3">
+    <p class="fw-bold h4">Contact Us</p>
+    <p class="h5 mt-1"> <i class="bi bi-geo-alt-fill brand me-1"></i>  123,Flower Street,</p>
+   
+    <p class="h5"> <i class="bi bi-telephone-x-fill brand me-1"></i>  +91 98765 43210</p>
+    <p class="h5"><i class="bi bi-envelope brand me-2"></i> info@blossom.com</p>
+      </div>
+
+   </div>
+  </div>
+
+  <!--copyright-->
+  <div class="copyright">
+  <p class="text-center text-light p-2 "><i class="bi bi-c-circle"></i>2024 Blossom Flower Shop. All Rights Reserved.</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+#nav{
+    background-color: rgba(252, 233, 236, 0.899);
+    
+}
+#nav-link:hover{
+    color: rgb(246, 112, 134);
+    text-decoration: underline;
+}
+#hero-section{
+  
+    background: url(image1.avif) center center/cover no-repeat;
+  height: 90vh;
+
+}
+
+#add-cart{
+
+    background-color: rgb(254, 97, 123) ;
+    color: aliceblue;
+}
+
+#price{
+    color:rgb(254, 97, 123) ;
+}
+.order-details{
+    background-color: rgba(252, 233, 236, 0.899);
+}
+#hero-button{
+     background-color: rgb(246, 112, 134);
+     color: aliceblue;
+}
+.order-icone{
+    font-size: 70px;
+}
+#rating-card{
+
+     background-color: rgba(252, 233, 236, 0.899);
+}
+.star{
+    color: gold;
+}
+.quote{
+    color:  rgb(254, 97, 123);
+}
+.icone-order{
+
+    color:  rgb(254, 97, 123);
+    font-size: 40px;
+     display:block;
+    margin-bottom:15px;
+}
+#add-cart:hover,
+#hero-button:hover{
+    background-color:#ff4f83;
+    transform:translateY(-2px);
+    transition:.3s;
+}
+.footer{
+    background-color:#ff4f83;
+    width: 100%;
+}
+.brand{
+    font-size: 25px;
+}
+.copyright{
+    background-color: #fc4079;
+}
